@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-practice/iniconfig/ini"
+	"iniconfig/ini"
 	"io/ioutil"
 	"log"
 )
@@ -17,7 +17,5 @@ func main()  {
 		log.Fatal("unmarshal failed: ", err)
 	}
 
-
 	fmt.Println(conf)
-
 }
